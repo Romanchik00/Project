@@ -1,0 +1,193 @@
+body {
+    width: 90%;
+    margin: auto;
+}
+
+body.dark-theme {
+    background: black;
+    background-image: url(./assets/Background4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+}
+
+.dark-theme article {
+    box-shadow: none;
+}
+
+.dark-theme header {
+    background: blueviolet;
+}
+
+header {
+    position: sticky;
+    background: wheat;
+    width: 100%;
+    height: 35px;
+    top: 0;
+    display: flex;
+}
+
+nav {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+main {
+    margin-top: 5px;
+}
+
+footer {
+    margin-bottom: 30px;
+}
+
+p,
+li,
+div,
+.category
+ {
+    margin: 5px 0;
+}
+
+h1 {
+    width: 95%;
+    margin: 10px 0;
+}
+
+h1 img {
+    height: 27px;
+}
+
+ul {
+    border-top: ridge;
+    border-bottom: ridge;
+    padding: 15px 40px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    height: 70%;
+}
+
+article button {
+    font-size: 18px;
+}
+
+span {
+    font-size: xx-large;
+    margin: 30px 0px 90px 0px;
+    transform: rotate(45deg);
+    border: dashed;
+    padding: 10px;
+
+}
+
+.card {
+    width: 200px;
+    height: 275px;
+    background-color: rgb(226, 226, 179);
+    border: solid ;
+    border-color: lightgray;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+    margin: 10px;
+    background: radial-gradient();
+}
+
+.decor {
+    box-shadow: 7px 7px darkgrey;
+    border: ridge;
+    border-width: 10px;
+    background: transparent;
+}
+
+.category {
+    display: flex;
+    flex-flow: wrap;
+    border: solid lightgray;
+    padding: 5px;
+    justify-content: space-around;
+    padding-top: 25px;
+}
+
+.uper {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    width: 51px;
+    font-size: xx-large;
+    background-color: gainsboro;
+    border-color: grey;
+    font-stretch: expanded;
+}
+
+.uper_hide {
+    display: none;
+}
+
+.form {
+    display: none;
+    flex-direction: column;
+    border: solid lightgray;
+    padding: 30px;
+    background-color: aqua;
+    justify-content: center;
+    border: outset;
+}
+
+.form > * {
+    margin: 10px;
+}
+
+.form > div {
+    display: flex;
+}
+
+.form > div:first-child {
+    align-items: center;
+}
+
+.form > div:last-child {
+    justify-content: space-evenly;
+}
+
+.form button {
+    height: 40px;
+    border-width: medium;
+}
+.pos {
+    position: fixed;
+    top: 22vh;
+    left: 20vw;
+    right: 20vw;
+    bottom: 22vh;
+}
+
+.radio input {
+    margin-left: 15px;
+}
+
+[type="radio"]:nth-child(2) {
+    filter: drop-shadow(0px 1px 4px darkblue);
+}
+[type="radio"]:nth-child(3) {
+    filter: drop-shadow(0px 1px 4px red);
+}
+[type="radio"]:last-child {
+    filter: drop-shadow(0px 1px 4px green);
+}
